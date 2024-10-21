@@ -14,5 +14,18 @@ const vm = Vue.createApp({
         (this.rotateY = 0),
         (this.rotateZ = 0);
     },
+    copy() {
+      const copyText = `Perspective: ${this.perspective}, RotateX: ${this.rotateX}deg, RotateY: ${this.rotateY}deg, RotateZ: ${this.rotateZ}deg`;
+
+      // copy the text to clipboard
+      navigator.clipboard
+        .writeText(copyText)
+        .then(() => {
+          alert("Value copied to clipboard!");
+        })
+        .catch((err) => {
+          console.error("Failed to copy: ", err);
+        });
+    },
   },
 }).mount("#app");
