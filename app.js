@@ -8,7 +8,7 @@ const vm = Vue.createApp({
     };
   },
   methods: {
-    rest() {
+    reset() {
       (this.perspective = 0),
         (this.rotateX = 0),
         (this.rotateY = 0),
