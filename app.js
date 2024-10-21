@@ -1,7 +1,10 @@
 const vm = Vue.createApp({
   data() {
     return {
-      test: "test",
+      perspective: 0,
+      rotateX: 0,
+      rotateY: 0,
+      rotateZ: 0,
     };
   },
 }).mount("#app");
