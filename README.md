@@ -13,31 +13,30 @@ This playground lets you tinker with 3D transformations and perspective effects 
 - 💡 **Vue.js Reactive Magic**: Leveraging Vue.js for a smooth and reactive experience.
 - 🖼 **Beautiful UI**: Clean and minimal design to keep the focus on the perspective!
 
-## 💻 How to Run It Locally
+## 💻 How to Run It
 
-Ready to play with some perspectives? Here’s how you can get started:
+Since we’re using Vue via CDN, all you need is a browser to run the app locally. No need to install dependencies or set up a development server!
 
 1. Clone the repository:
    ```bash
    git clone https://github.com/Alzubair98/perspective-playground.git
    ```
-2. Navigate to the project directory:
-   ```bash
-   cd perspective-playground
-   ```
-3. Install the dependencies:
-   ```bash
-   npm install
-   ```
-4. Start the development server:
-   ```bash
-   npm run serve
-   ```
-5. Open your browser and go to `http://localhost:8080` to see the magic unfold!
+2. Open the `index.html` file directly in your browser.
+3. That's it! 🎉 You're ready to explore the playground.
+
+### Or check it out live:
+
+[Link to live demo](#) (You can replace this with your live GitHub Pages link or other hosting service)
+
+## 📸 Screenshots
+
+![Perspective Playground Screenshot](link-to-screenshot)
+
+_Feeling like a magician controlling the elements?_ ✨
 
 ## 🤖 Technologies Used
 
-- **Vue.js**: The core framework for building reactive interfaces.
+- **Vue.js** (via CDN): The core framework for building reactive interfaces.
 - **CSS 3D Transformations**: For all the cool perspective and transformation effects.
 - **JavaScript (ES6+)**: Custom logic to make everything tick!
 
